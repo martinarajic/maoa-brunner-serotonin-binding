@@ -68,4 +68,5 @@ This folder contains MD simulation files for the neutral form of serotonin.
 The INPUTS folder contains general input files used for system preparation, equilibration, and production MD simulations in AMBER.
 
 ##### NOTES
-Large trajectory files are not included due to file-size limitations. Representative structures, input files, docking files, and selected outputs are provided to document the computational workflow and enable reproduction or further analysis of the docking and MD simulations described in the manuscript.
+Large trajectory files are not included due to file-size limitations and are available from the corresponding author upon reasonable request. 
+Representative structures, input files, docking files, and selected outputs are provided to document the computational workflow and enable reproduction of the docking and MD simulations described in the manuscript.
