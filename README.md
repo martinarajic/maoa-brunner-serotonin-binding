@@ -8,9 +8,9 @@ Elucidating the Molecular Basis of Brunner Syndrome: How Clinically Relevant Mut
 ```text
 maoa-brunner-serotonin-binding/
 ├── DOCKING/
-│   ├── Harmine Validation/
-│   ├── Mutants Validation/
-│   └── MAOA Docking/
+│   ├── Harmine_validation/
+│   ├── Mutants_validation/
+│   └── MAOA_docking/
 └── MD/
     ├── CRYSTAL/
     │   ├── WT/
