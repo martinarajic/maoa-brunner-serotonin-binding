@@ -18,7 +18,7 @@ maoa-brunner-serotonin-binding/
     └── INPUTS/
 
 
-#DOCKING
+# DOCKING
 
 Harmine Validation
 This folder contains files used to validate the docking protocol by re-docking the co-crystallized ligand harmine into the MAO-A active site. 
@@ -32,7 +32,7 @@ These serotonin-bound wild-type structures were used as the starting structures 
 The WT MAO-A structure with docked serotonin was used to generate the mutant structures in Chimera.
 The resulting mutant systems were then used as starting structures for MD simulations.
 
-#MD
+# MD
 This folder contains files required to run MD simulations in AMBER 22.3.
 This includes AMBER coordinate files (.coord), topology files (.prmtop), MD input files, and PDB structures used for preparing and running the simulations.
 
