@@ -10,14 +10,28 @@ maoa-brunner-serotonin-binding/
 ├── DOCKING/
 │   ├── Harmine Validation/
 │   ├── Mutants Validation/
-│   └── maoa_docking/
+│   └── MAOA Docking/
 └── MD/
     ├── CRYSTAL/
+    │   ├── WT/
+    │   ├── V244I/
+    │   ├── E446K/
+    │   ├── C266F/
+    │   └── R45W/
     ├── MINIMIZED/
+    │   ├── WT/
+    │   ├── V244I/
+    │   ├── E446K/
+    │   ├── C266F/
+    │   └── R45W/
     ├── NEUTRAL/
+    │   ├── WT/
+    │   ├── V244I/
+    │   ├── E446K/
+    │   ├── C266F/
+    │   └── R45W/
     └── INPUTS/
 ```
-
 #### DOCKING
 
 Harmine Validation
