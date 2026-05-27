@@ -3,20 +3,20 @@ This repository contains the files necessary to reproduce the computational resu
 Rajić M, Stare J, Vrban Đerek L, Sollner Dolenc M, Mavri J, Vianello R.  
 Elucidating the Molecular Basis of Brunner Syndrome: How Clinically Relevant Mutations Disrupt Serotonin Binding and Active-Site Stability in MAO-A.
 
-#### Repository structure
+#### REPOSITORY STRUCTURE
 
+```text
 maoa-brunner-serotonin-binding/
 ├── DOCKING/
 │   ├── Harmine Validation/
 │   ├── Mutants Validation/
-│   └── Serotonin/
-│
+│   └── maoa_docking/
 └── MD/
     ├── CRYSTAL/
     ├── MINIMIZED/
     ├── NEUTRAL/
     └── INPUTS/
-
+```
 
 #### DOCKING
 
