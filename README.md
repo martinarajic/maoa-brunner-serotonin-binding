@@ -34,13 +34,13 @@ maoa-brunner-serotonin-binding/
 ```
 #### DOCKING
 
-Harmine Validation
+###### Harmine Validation
 This folder contains files used to validate the docking protocol by re-docking the co-crystallized ligand harmine into the MAO-A active site. 
 
-Mutants Validation
+###### Mutants Validation
 The folder contains docking files used to validate the crystal-based protocol, in which the WT MAO-A structure with docked SRO serotonin was used as the starting structure for generating the mutant systems.
 
-MAOA Docking
+###### MAOA Docking
 This folder includes docked structures of both serotonin protonation states, SRP and SRO, together with the corresponding MAO-A structures. 
 These serotonin-bound wild-type structures were used as the starting structures for the main crystal-based protocol. 
 The WT MAO-A structure with docked serotonin was used to generate the mutant structures in Chimera.
@@ -50,22 +50,22 @@ The resulting mutant systems were then used as starting structures for MD simula
 This folder contains files required to run MD simulations in AMBER 22.3.
 This includes AMBER coordinate files (.coord), topology files (.prmtop), MD input files, and PDB structures used for preparing and running the simulations.
 
-CRYSTAL
+###### CRYSTAL
 This folder contains systems prepared using the crystal-based protocol.
 In this protocol, serotonin was first docked into the wild-type crystal structure of MAO-A.
 The WT MAO-A structure with docked serotonin was used to generate the mutant structures in Chimera.
 This protocol was used as the main production setup for comparing the effect of mutations starting from the same binding pose.
 
-MINIMIZED
+###### MINIMIZED
 This folder contains systems used to validate the crystal-based protocol.
 Here, each WT or mutant MAO-A structure was prepared separately, minimized, and then docked with serotonin.
 These files were used to check that serotonin adopts a comparable binding pose to the one obtained in the crystal-based protocol.
 
-NEUTRAL
+###### NEUTRAL
 This folder contains MD simulation files for the neutral form of serotonin.
 
-INPUTS
+###### INPUTS
 The INPUTS folder contains general input files used for system preparation, equilibration, and production MD simulations in AMBER.
 
-Notes
+###### NOTES
 Large trajectory files are not included due to file-size limitations. Representative structures, input files, docking files, and selected outputs are provided to document the computational workflow and enable reproduction or further analysis of the docking and MD simulations described in the manuscript.
